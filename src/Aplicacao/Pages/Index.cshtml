@@ -1,0 +1,31 @@
+﻿@page
+@using Aplicacao.Model;
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="">
+    <h1 class="display-4">Formulário</h1>
+    <form method="post" action="">
+        <div class="form-group">
+            <label for="exampleInputEmail1">Nome</label>
+            <input type="text" class="form-control" name="nome" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nome">
+           
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">CPF</label>
+            <input type="text" class="form-control" name="cpf" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="CPF">
+          
+        </div>
+
+        <div class="form-group">
+            <label for="exampleInputEmail1">Data Aplicacao</label>
+            <input type="date" class="form-control" name="dataAplicacao" id="dataApliccao" aria-describedby="emailHelp">
+         
+        </div>
+        <br /> <br />
+
+        <input type="submit">
+</form>
+</div>
